@@ -8,8 +8,8 @@
 
 
 
-    <bean id = "student" class= "exercises.exercise1.Student" scope="prototype"/>
-    <bean id = "klasa" class= "exercises.exercise1.Klasa" scope="singleton">
+    <bean id = "student" class= "pl.sda.spring.springExercise.Student" scope="prototype"/>
+    <bean id = "klasa" class= "pl.sda.spring.springExercise.Klasa" scope="singleton">
         <constructor-arg ref="student"/>
         <constructor-arg ref="student"/>
         <constructor-arg ref="student"/>

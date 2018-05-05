@@ -1,4 +1,4 @@
-package exercises.exercise1;
+package pl.sda.spring.springExercise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
